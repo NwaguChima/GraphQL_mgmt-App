@@ -13,7 +13,7 @@ const ProjectSchema = new mongoose.Schema(
       enum: ["Not Started", "In Progress", "Completed"],
       default: "Not Started",
     },
-    client: {
+    clientId: {
       type: mongoose.Schema.Types.ObjectId,
       ref: "Client",
     },
