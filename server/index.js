@@ -1,7 +1,7 @@
 const express = require("express");
 require("dotenv").config();
 
-const { graphqLHTTP } = require("express-graphql");
+const { graphqlHTTP } = require("express-graphql");
 const shcema = require("./schema/schema");
 const port = process.env.PORT || 5000;
 
